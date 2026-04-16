@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1030.0" prefWidth="1870.0" style="-fx-background-color: f7f7f7;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.group15.controllers.adminMovieManagementController">
+   <children>
+      <TableView fx:id="movieTable" layoutX="310.0" layoutY="140.0" prefHeight="650.0" prefWidth="1500.0" style="-fx-background-color: #12202C;">
+         <columns>
+            <TableColumn fx:id="posterColumn" prefWidth="282.0" style="-fx-font-size: 16px;" text="Poster Name" />
+            <TableColumn fx:id="titleColumn" prefWidth="310.0" style="-fx-font-size: 16px;" text="Movie title" />
+            <TableColumn fx:id="genreColumn" prefWidth="258.0" style="-fx-font-size: 16px;" text="Genres" />
+            <TableColumn fx:id="summaryColumn" prefWidth="724.0" style="-fx-font-size: 16px;" text="Summary" />
+         </columns>
+      </TableView>
+      <Pane layoutY="-50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="250.0" style="-fx-background-color: #12202C;">
+         <children>
+            <Button fx:id="movieManagementButton" defaultButton="true" layoutX="14.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMovieManagementButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #009EF7; -fx-font-weight: bold; -fx-font-size: 16;" text="Movie Management" textAlignment="CENTER" textFill="WHITE">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </Button>
+            <Button fx:id="monthlyScheduleButton" defaultButton="true" layoutX="13.0" layoutY="277.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMonthlyScheduleButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #009EF7; -fx-font-weight: bold; -fx-font-size: 16;" text="Monthly Schedule" textFill="WHITE">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cancellationButton" defaultButton="true" layoutX="13.0" layoutY="321.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleCancellationButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #009EF7; -fx-font-weight: bold; -fx-font-size: 16;" text="Cancellations Processes" textFill="WHITE">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </Button>
+            <Label layoutX="66.0" layoutY="172.0" text="Admin Menu" textFill="#009ef7">
+               <font>
+                  <Font name="Tahoma Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </Label>
+            <Label layoutX="14.0" layoutY="104.0" text="Cinema Center" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="66.0" text="Group 15" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="737.0" text="User Profile" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameSurnameLabel" layoutX="144.0" layoutY="820.0" text="Name-surname" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="roleLabel" layoutX="144.0" layoutY="843.0" text="Role" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="793.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="817.0" text="Name Surname" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="842.0" text="Role" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" layoutX="145.0" layoutY="795.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="closeButton" layoutX="15.0" layoutY="960.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleCloseButton" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #dd2020; -fx-font-weight: bold; -fx-font-size: 16;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" />
+               </padding>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="310.0" layoutY="90.0" prefHeight="43.0" prefWidth="342.0" text="Movie Management" textFill="#12202c">
+         <font>
+            <Font name="Tahoma Bold" size="27.0" />
+         </font>
+      </Label>
+      <Pane layoutY="940.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="1920.0" style="-fx-background-color: #12202C;">
+         <children>
+            <Label layoutX="896.0" layoutY="28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="© Copyright 2025 Group 15 Cinema Center" textFill="WHITE">
+               <font>
+                  <Font name="Yu Gothic Medium" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="saveButton" layoutX="1560.0" layoutY="800.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleSaveButton" prefHeight="30.0" prefWidth="250.0" style="-fx-background-color: #009EF7; -fx-font-weight: bold; -fx-font-size: 16;" text="Save and Back to Menu" textFill="WHITE">
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </Button>
+   </children>
+</Pane>
