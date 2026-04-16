@@ -168,42 +168,56 @@ Terminal veya komut satırı üzerinden projenin ana dizinine giderek aşağıda
 ## Uygulama Görselleri
 
 ### Giriş Ekranı
-(Buraya Giriş Ekranı fotoğrafını yerleştiriniz)
+### Login Screen
+<img width="1918" height="1016" alt="Login_screen_cinema_center" src="https://github.com/user-attachments/assets/dda55b6c-e29d-4030-aaca-37bea7488ade" />
+
 
 ---
 
 ### Admin Menüsü
-(Buraya Admin Menüsü fotoğrafını yerleştiriniz)
+### Admin Menu
+<img width="1918" height="1018" alt="Admin_menu_main_screen" src="https://github.com/user-attachments/assets/2410dc03-7358-40b9-bdbe-1c1136412aaf" />
+
 
 ---
 
 ### Film Yönetim Ekranı
-(Buraya Film Yönetim Ekranı fotoğrafını yerleştiriniz)
+### Movie Managemnt Screen
+<img width="1918" height="1013" alt="Movie_management_screen" src="https://github.com/user-attachments/assets/b524e0fa-6703-43f1-a790-faf986a980c7" />
+
 
 ---
 
 ### Aylık Seans Planlama Ekranı
-(Buraya Aylık Seans Planlama Ekranı fotoğrafını yerleştiriniz)
+### Monthly Schedule Screen
+<img width="1582" height="985" alt="Monthly_schedule_screen" src="https://github.com/user-attachments/assets/8ba70151-120a-41c7-9078-67d2a1399f5c" />
+
 
 ---
 
 ### Kasiyer Menüsü
-(Buraya Kasiyer Menüsü fotoğrafını yerleştiriniz)
+### Cashier Menu
+<img width="1800" height="992" alt="Cashier_menu_1" src="https://github.com/user-attachments/assets/436c4e0f-a3e3-4238-8a50-b90c76e11e92" />
+
 
 ---
 
 ### Çalışan Yönetim Ekranı
-(Buraya Çalışan Yönetim Ekranı fotoğrafını yerleştiriniz)
+### Employee Screen<img width="1898" height="1002" alt="Employee_screen" src="https://github.com/user-attachments/assets/e986f3fa-1eef-4b1f-baae-fd4c80fe3673" />
+
 
 ---
 
 ### Bilet Fiyatlandırma Menüsü
-(Buraya Bilet Fiyatlandırma Menüsü fotoğrafını yerleştiriniz)
+### Ticket Pricing Menu
+<img width="1897" height="1010" alt="Ticket_price_menu" src="https://github.com/user-attachments/assets/edd56ce6-761a-4b95-9ec0-bd6ee43241f1" />
 
 ---
 
 ### Hasılat Raporu Menüsü
-(Buraya Hasılat Raporu Menüsü fotoğrafını yerleştiriniz)
+### Revenue Menu
+<img width="1892" height="1011" alt="Revenue_Report_Menu" src="https://github.com/user-attachments/assets/ff84878c-ce05-49a9-b814-086ba0c05a38" />
+
 
 ---
 
