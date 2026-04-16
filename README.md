@@ -1,5 +1,112 @@
 # Cinema Center Management System
 
+This project is a JavaFX-based automation system developed to manage all operational processes of a cinema, such as ticket sales, movie management, stock tracking, and staff organization.
+
+## Technical Requirements
+
+To run the application smoothly, the following components must be installed on your system:
+
+1. **Java Development Kit (JDK):** Minimum JDK 17 (JDK 23 or 26 recommended).
+2. **MySQL Server:** Version 8.0 or higher for database operations.
+3. **Maven:** For dependency management (Maven Wrapper -mvnw- is available in the project directory).
+4. **iText 7 Library:** Required for PDF ticket and receipt generation (automatically installed by Maven).
+
+## User Roles and Permissions
+
+The system offers three different authorization levels in accordance with the Role-Based Access Control (RBAC) structure:
+
+### 1. Cashier
+* **Sales Transactions:** Selection of movies in theaters and session tracking.
+* **Seat Management:** Interactive seat selection and instant occupancy control for Hall A and Hall B.
+* **Buffet Sales:** Inclusion of popcorn, beverages, and other side products in the ticket transaction.
+* **Document Generation:** Automatic PDF ticket and payment receipt creation upon completion of sales.
+
+### 2. Manager
+* **Inventory Control:** Monitoring and updating stock quantities of buffet products.
+* **Staff Management:** Defining new employees, deleting existing staff, or editing authorization information.
+* **Financial Reporting:** Reporting total revenue, taxes paid, and net profit ratios.
+
+### 3. Admin (System Administrator)
+* **Movie Portfolio Management:** Adding new movies, updating or deleting posters, prices, and genre information.
+* **Schedule Planning:** Assigning dates, times, and halls for movies.
+* **Transaction Cancellation:** Canceling completed transactions. Cancellation automatically reverts product stocks and general revenue data.
+
+## Installation and Configuration
+
+### 1. Database Setup
+* Create a database schema named `cinema_center` on MySQL.
+* Import the content of the `src/main/resources/com/Database/Group15.sql` file into this schema.
+
+### 2. Database Connection Settings
+Open the `src/main/java/com/group15/Facade.java` file and update the following variables with your own MySQL information:
+* `DB_USER`: Your database username.
+* `DB_PASSWORD`: Your database password.
+
+### 3. Starting the Application
+Go to the main directory of the project via terminal or command line and run the following command:
+```powershell
+./mvnw clean javafx:run
+```
+
+## Default Login Credentials
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Admin** | admin1 | admin1 |
+| **Manager** | manager1 | manager1 |
+| **Cashier** | cashier1 | cashier1 |
+
+---
+
+## Application Screenshots
+
+### Login Screen
+(Place Login Screen photo here)
+
+---
+
+### Admin Menu
+(Place Admin Menu photo here)
+
+---
+
+### Movie Management Screen
+(Place Movie Management Screen photo here)
+
+---
+
+### Monthly Schedule Screen
+(Place Monthly Schedule Screen photo here)
+
+---
+
+### Cashier Menu
+(Place Cashier Menu photo here)
+
+---
+
+### Employee Management Screen
+(Place Employee Management Screen photo here)
+
+---
+
+### Ticket Pricing Menu
+(Place Ticket Pricing Menu photo here)
+
+---
+
+### Revenue Report Menu
+(Place Revenue Report Menu photo here)
+
+---
+
+<br>
+<br>
+
+# Sinema Merkezi Yönetim Sistemi (TR)
+
+---
+
 Bu proje, bir sinema salonunun bilet satışı, film yönetimi, stok takibi ve personel organizasyonu gibi tüm operasyonel süreçlerini yönetmek için geliştirilmiş JavaFX tabanlı bir otomasyon sistemidir.
 
 ## Teknik Gereksinimler
@@ -58,44 +165,44 @@ Terminal veya komut satırı üzerinden projenin ana dizinine giderek aşağıda
 
 ---
 
-## Uygulama Görselleri / Application Screenshots
+## Uygulama Görselleri
 
-### Giriş Ekranı / Login Screen
+### Giriş Ekranı
 (Buraya Giriş Ekranı fotoğrafını yerleştiriniz)
 
 ---
 
-### Admin Menüsü / Admin Menu
+### Admin Menüsü
 (Buraya Admin Menüsü fotoğrafını yerleştiriniz)
 
 ---
 
-### Film Yönetim Ekranı / Movie Management Screen
+### Film Yönetim Ekranı
 (Buraya Film Yönetim Ekranı fotoğrafını yerleştiriniz)
 
 ---
 
-### Aylık Seans Planlama Ekranı / Monthly Schedule Screen
+### Aylık Seans Planlama Ekranı
 (Buraya Aylık Seans Planlama Ekranı fotoğrafını yerleştiriniz)
 
 ---
 
-### Kasiyer Menüsü / Cashier Menu
+### Kasiyer Menüsü
 (Buraya Kasiyer Menüsü fotoğrafını yerleştiriniz)
 
 ---
 
-### Çalışan Yönetim Ekranı / Employee Screen
+### Çalışan Yönetim Ekranı
 (Buraya Çalışan Yönetim Ekranı fotoğrafını yerleştiriniz)
 
 ---
 
-### Bilet Fiyatlandırma Menüsü / Ticket Price Menu
+### Bilet Fiyatlandırma Menüsü
 (Buraya Bilet Fiyatlandırma Menüsü fotoğrafını yerleştiriniz)
 
 ---
 
-### Hasılat Raporu Menüsü / Revenue Report Menu
+### Hasılat Raporu Menüsü
 (Buraya Hasılat Raporu Menüsü fotoğrafını yerleştiriniz)
 
 ---
